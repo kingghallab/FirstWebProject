@@ -1,0 +1,190 @@
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    color: #2e423e;
+    background: linear-gradient(to bottom, #6C22A6, #83C0C1);
+}
+
+p{
+    font-size: 1.3rem;
+    line-height: 2;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+    font-size: 5.625rem;
+    color: #6962AD;
+    line-height: 2;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    color: #ffcb5b;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #ffcb5b;
+}
+hr{
+    border: dotted #126e6e 6px;
+    
+    width: 30%;
+    border-bottom: none;
+    margin: 100px auto;
+}
+
+a{
+    color: #ffcb5b;
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    margin: 0 25px 0 25px;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#ffffff;
+    
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+.adham{
+    color: #6C22A6;
+}
+.undertopIntro{
+    color: #6962AD;
+}
+
+.Top {
+    background-color: #6EACDA;
+    position: relative;
+    /* to move the cloud relative to the top div position (absolute positioning)  */
+    padding-top: 100px;
+    
+    height: 69rem;
+
+}
+.undertopdiv{
+    position: relative;
+    top: 10%;
+}
+
+.cloud-top {
+    position: absolute;
+    top: 0;
+    right: 300px;
+}
+
+.cloud-bot {
+    position: absolute;
+    left: 300px;
+}
+.mount{
+    position: relative;
+    top: 35%;
+    
+}
+.myself {
+    height: 30rem;
+    border-radius: 10%;
+}
+
+.comp-prog {
+    border-radius: 5%;
+    width: 45%;
+    float: left;
+    margin-right: 30px;
+
+
+}
+
+.team {
+    
+    width: 45%;
+    border-radius: 10%;
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+
+.middle-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.skill-row{
+    margin: 100px auto 100px auto; 
+    width: 50%;
+    text-align: left;
+    
+}
+
+
+.web-row{
+    border-radius: 10%;
+    width: 40%;
+    float: left;
+    margin-right: 30px;
+    
+}
+.webdev{
+    padding: 20px;
+}
+
+.teamdiv{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+.contactoo{
+    width: 30%;
+    margin: 40px auto 60px;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #ffcc80; /* Use a color from your gradient */
+    color: #333; /* Text color */
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ffb74d; /* Slightly darker shade for hover effect */
+    transform: scale(1.05);
+}
+
+.btn:active {
+    background-color: #ffa726; /* Even darker shade for active state */
+    transform: scale(0.98);
+}
+.margin-fix{
+    margin: 0 auto 0;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.bottom-container{
+    background: #77adad;
+}
+
+.underline{
+    text-decoration: none;
+    font-size: 1rem;
+    margin-right: 0;
+}
